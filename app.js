@@ -8,20 +8,10 @@ slides.forEach(
         slide.style.left = `${index * 100}%` 
     }
 )
-// Trying to solve infinity images------
-// let createImg =  ()=>{
-//     let img = document.createElement("img");
-//     img.classList.add("slide");
-//     img.src = `https://picsum.photos/id/${count}/1000/500`;
-
-//     main.appendChild(img);
-//     count++;
-// }
 
 const goNext = ()=>{
         counter++;
         slideImage();
-        // createImg();
         
 }
 const goPrev= ()=>{
